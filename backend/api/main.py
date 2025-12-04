@@ -1,6 +1,6 @@
 import subprocess
 from fastapi import FastAPI, APIRouter
-from python.rutas.inventario import router as inventario_router
+from backend.python_services.rutas.inventario import router as inventario_router
 
 app = FastAPI()
 
