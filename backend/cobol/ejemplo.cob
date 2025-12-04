@@ -1,0 +1,10 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. EJEMPLO.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 MENSAJE PIC X(50) VALUE "Hola desde COBOL dentro de Docker j".
+
+       PROCEDURE DIVISION.
+           DISPLAY MENSAJE
+           GOBACK.
